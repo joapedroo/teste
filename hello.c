@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-
 int main(void){
 
-	int idade = 15;
+	int vdado = 10;
 
-	printf("Informe a idade: \n");
-	scanf("%d", &idade);
+	printf("Digite um valor entre 1 e 10:\n");
+	scanf("%d", &dado);
 
-	if(idade >= 18 ){
-		printf("Maior de idade\n");
-		printf("Pode entrar na balada!\n");
-	}else{
-		printf("Deu errado\n");
-		printf("Voce não pode entrar na balada!\n");
+	//x pertence [1, 10]
+	if (dado >= && dado <= 10){
+		printf("valor correto.\n");
 	}
 	return 0;
 }
